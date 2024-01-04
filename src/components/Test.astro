@@ -1,0 +1,12 @@
+---
+interface ITest {
+  name: string;
+  age: number;
+}
+
+const { name, age } = Astro.props;
+
+---
+
+
+<h1>{name} is <span>{age}</span> years old.</h1>
